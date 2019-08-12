@@ -8,13 +8,15 @@
       "typescript": "3.3.3333"
    },
    "dependencies": {
-      "typeorm": "0.2.18",
+      "mysql": "^2.14.1",
       "reflect-metadata": "^0.1.10",
-      "mysql": "^2.14.1"
+      "typedi": "^0.8.0",
+      "typeorm": "0.2.18",
+      "typeorm-typedi-extensions": "^0.2.3"
    },
    "scripts": {
       "start": "ts-node src/index.ts",
-      "build": "tsc",   
+      "build": "tsc",
       "watch": "tsc -w"
    }
 }
